@@ -21,7 +21,7 @@ app.get(
   }
 )
 
-const port = 3033
+const port = process.env.PORT || 3033
 
 app.listen(
   port,
